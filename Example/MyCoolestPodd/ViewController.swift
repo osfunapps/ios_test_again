@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import MyCoolestPodd
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var k = UIButton()
+        k.dodo()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

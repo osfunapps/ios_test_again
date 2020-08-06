@@ -1,0 +1,16 @@
+PODS:
+  - MyCoolestPodd (0.1.0)
+
+DEPENDENCIES:
+  - MyCoolestPodd (from `../`)
+
+EXTERNAL SOURCES:
+  MyCoolestPodd:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyCoolestPodd: 3ab2ee30155616b1ea1a39972d53a4df2123c541
+
+PODFILE CHECKSUM: f6b38dfd23324bbaee954adf7be8871c39c5b144
+
+COCOAPODS: 1.9.3

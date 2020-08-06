@@ -32,9 +32,9 @@
 		06AD6A813DAB580DE5309A31 /* Pods-MyCoolestPodd_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCoolestPodd_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyCoolestPodd_Example/Pods-MyCoolestPodd_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1C267BEF8F0FF228FB3E112C /* Pods-MyCoolestPodd_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCoolestPodd_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyCoolestPodd_Tests/Pods-MyCoolestPodd_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1F4DE6EFDA3ED0A5E9B65C56 /* Pods_MyCoolestPodd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCoolestPodd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20363FE61AED0D37AA0BD145 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		41D8B225AC0AA22ADA8B3F33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		58014A88108ED0819D2451B3 /* MyCoolestPodd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyCoolestPodd.podspec; path = ../MyCoolestPodd.podspec; sourceTree = "<group>"; };
+		20363FE61AED0D37AA0BD145 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		41D8B225AC0AA22ADA8B3F33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		58014A88108ED0819D2451B3 /* MyCoolestPodd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyCoolestPodd.podspec; path = ../MyCoolestPodd.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* MyCoolestPodd_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoolestPodd_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +86,6 @@
 				8CC2494B637CA2AD7EAEB927 /* Pods-MyCoolestPodd_Tests.debug.xcconfig */,
 				1C267BEF8F0FF228FB3E112C /* Pods-MyCoolestPodd_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
